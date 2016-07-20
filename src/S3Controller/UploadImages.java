@@ -33,8 +33,8 @@ public class UploadImages
         
     
    AWSCredentials credentials = null;
-        String aws_access_key_id = "AKIAJKZ47GTKMNO6QZOA";
-        String aws_secret_access_key = "RlRfldVhHFzRi8ZHTxiYUT8ZjxjliUJW4srPUbi9";
+        String aws_access_key_id = "PUT_YOUR_aws_access_key_id_HERE";
+        String aws_secret_access_key = "PUT_YOUR_aws_secret_access_key_HERE";
         String bucketName=bucketname;  //"zillionbucket";
         String fileName= filename;  //"javaee_duke_image.jpg";
         String localpath=filepath;   //"C:\\Users\\Hariom\\Documents\\NetBeansProjects\\JavaApplication9\\src\\ProcessedImages\\javaee_duke_image.jpg";

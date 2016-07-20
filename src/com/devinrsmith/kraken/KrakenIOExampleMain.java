@@ -12,6 +12,8 @@ import java.util.logging.Logger;
 
 /**
  * Created by dsmith on 8/18/14.
+ * Modified by Hariom Vashisth
+ * Github : hariom282538
  */
 public class KrakenIOExampleMain {
 
@@ -23,8 +25,8 @@ public class KrakenIOExampleMain {
 String bucket;
     public void Compression(String link, String bucket) throws ExecutionException, InterruptedException {
        try {
-        final String apiKey = "6ae67663c3b6fa0ba3aad212032fdc24";
-        final String apiSecret = "280de176ae304dd418117d5fc3d4b1a3ab03b42d";
+        final String apiKey = "PUT_YOUR_API-KEY_HERE";
+        final String apiSecret = "PUT_YOUR_API-SECRET_HERE";
         final String url = link;
         
         this.bucket=bucket;
@@ -40,7 +42,7 @@ String bucket;
         final Response response = service.uploadImage(waitingRequest);
         System.out.println(response.getKraked_url() + " : " + 100 * (response.getOriginal_size() - response.getKraked_size()) / response.getOriginal_size() + "% smaller");
         String fileURL = response.getKraked_url();
-        String saveDir = "D:\\Hariom's Lappy Backup\\Documents Hariom\\NetBeansProjects\\JavaApplication9\\src\\ProcessedImages";
+        String saveDir = "PUT_YOUR_LOCAL/SERVER-PATH_HERE";
         
             HttpDownloadUtility.downloadFile(fileURL, saveDir,bucket );
         } catch (IOException ex) {

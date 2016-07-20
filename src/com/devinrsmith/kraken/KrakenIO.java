@@ -9,6 +9,8 @@ import retrofit.http.POST;
 
 /**
  * Created by dsmith on 8/18/14.
+ * Modified by Hariom Vashisth
+ * Github : hariom282538
  */
 public interface KrakenIO {
     @POST("/v1/url")

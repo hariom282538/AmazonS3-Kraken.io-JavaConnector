@@ -10,8 +10,10 @@ import S3Controller.UploadImages;
 /**
  * A utility that downloads a file from a URL.
  * @author www.codejava.net
- *
+ * Modified by Hariom Vashisth
+ * Github : hariom282538
  */
+
 public class HttpDownloadUtility {
 	private static final int BUFFER_SIZE = 4096;
 

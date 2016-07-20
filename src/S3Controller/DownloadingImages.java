@@ -35,12 +35,12 @@ import EmailHandler.*;
 
 public class DownloadingImages {
     
-   static String GetNotificationEmail = "hariom@zillion.io";
+   static String GetNotificationEmail = "vashisth.hariom7@gmail.com";
 
     public static void main(String[] args) throws IOException {
         AWSCredentials credentials = null;
-        String aws_access_key_id = "AKIAJKZ47GTKMNO6QZOA";
-        String aws_secret_access_key = "RlRfldVhHFzRi8ZHTxiYUT8ZjxjliUJW4srPUbi9";
+        String aws_access_key_id = "PUT_YOUR_aws_access_key_id_HERE";
+        String aws_secret_access_key = "PUT_YOUR_aws_secret_access_key_HERE";
         try {
             credentials = new BasicAWSCredentials(aws_access_key_id, aws_secret_access_key);//.getCredentials();
         } catch (Exception e) {
@@ -55,8 +55,8 @@ public class DownloadingImages {
         Region AP_SOUTHEAST_1 = Region.getRegion(Regions.AP_SOUTHEAST_1);
         s3.setRegion(AP_SOUTHEAST_1);
 
-        String bucketName = "zillionbucket";
-        String key = "instaspacekey";
+        String bucketName = "PUT_YOUR_S3-BUCKET-NAME_HERE";
+        String key = "PUT_YOUR_S3-BUCKET-KEY_HERE";
 
         try {
 

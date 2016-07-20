@@ -18,6 +18,7 @@ public class EmailSender
 {
     String SenderEmail;
     String ReceiverEmail;
+    String SendgridKey="PUT_YOUR_SENDGRID-KEY/ID_HERE";
 
     
    public void EmailVerification(String Email, ArrayList list)
@@ -27,7 +28,8 @@ public class EmailSender
            ReceiverEmail = Email;
            
            
-           SendGrid sendgrid = new SendGrid("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");
+           
+           SendGrid sendgrid = new SendGrid(SendgridKey);
            SendGrid.Email email = new SendGrid.Email();
            
            email.addTo(ReceiverEmail);
