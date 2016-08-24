@@ -19,12 +19,12 @@ Note: You can also use any other IDE.
 git clone git://github.com/tryghost/ghost.git
 
 ###Start your engines.
-
-Open project in IDE. </br>
-Set Sendgrid, S3 , Kraken credentials. </br>
-Congrats! You made it.  </br>
-Done, Run and Enjoy </br>
-
+<ol>
+<li>Open project in IDE.</li> </br>
+<li>Set Sendgrid, S3 , Kraken credentials.</li> </br>
+<li>Congrats! You made it.</li>  </br>
+<li>Done, Run and Enjoy</li> </br>
+</ol>
 ## Contributors
 
 Hariom Vashisth
