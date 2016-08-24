@@ -6,13 +6,15 @@ Automate your image optimization and compression process and get email notificat
 ## Developer Install (from git)
 
 Ubuntu: </br>
-Install JDK. (See Digital Ocean Article) <br/>
-Install Netbeans. (See Netbeans Article) <br/> 
-
+<ul>
+<li>Install JDK. (See Digital Ocean Article) </li>
+<li>Install Netbeans. (See Netbeans Article) </li>
+</ul>
 Windows: </br>
-Install JDK (Download from here) </br>
-Install Netbeans (download this version: Java EE) </br>
-
+<ul>
+<li>Install JDK (Download from here) </li>
+<li>Install Netbeans (download this version: Java EE) </li>
+</ul>
 Note: You can also use any other IDE.
 
 ###Clone  
@@ -20,10 +22,10 @@ git clone git://github.com/tryghost/ghost.git
 
 ###Start your engines.
 <ol>
-<li>Open project in IDE.</li> </br>
-<li>Set Sendgrid, S3 , Kraken credentials.</li> </br>
-<li>Congrats! You made it.</li>  </br>
-<li>Done, Run and Enjoy</li> </br>
+<li>Open project in IDE.</li> 
+<li>Set Sendgrid, S3 , Kraken credentials.</li> 
+<li>Congrats! You made it.</li>  
+<li>Done, Run and Enjoy</li>
 </ol>
 ## Contributors
 
