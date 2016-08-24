@@ -7,13 +7,13 @@ Automate your image optimization and compression process and get email notificat
 
 Ubuntu: </br>
 <ul>
-<li>Install JDK. (See Digital Ocean Article) </li>
-<li>Install Netbeans. (See Netbeans Article) </li>
+<li>Install JDK. (<a href="https://www.digitalocean.com/community/tutorials/how-to-install-java-on-ubuntu-with-apt-get">See Digital Ocean Article)</a> </li>
+<li>Install Netbeans. (<a href="https://netbeans.org/community/releases/81/install.html#install_windows">See Netbeans Article</a>) </li>
 </ul>
 Windows: </br>
 <ul>
-<li>Install JDK (Download from here) </li>
-<li>Install Netbeans (download this version: Java EE) </li>
+<li>Install JDK (<a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Download from here</a>) </li>
+<li>Install Netbeans (<a href="https://netbeans.org/downloads/">download this version: Java EE</a>) </li>
 </ul>
 Note: You can also use any other IDE.
 
