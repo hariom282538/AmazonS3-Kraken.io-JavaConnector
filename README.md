@@ -30,6 +30,7 @@ git clone git://github.com/tryghost/ghost.git
 ## Contributors
 
 Hariom Vashisth
+<a href="http://zillion.io">Zillion.io</a>
 
 ## License
 
