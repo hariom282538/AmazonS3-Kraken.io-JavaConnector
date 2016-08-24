@@ -18,7 +18,8 @@ Windows: </br>
 Note: You can also use any other IDE.
 
 ###Clone  
-git clone git://github.com/tryghost/ghost.git
+git clone https://github.com/hariom282538/AmazonS3-Kraken.io-JavaConnector.git
+
 
 ###Start your engines.
 <ol>
