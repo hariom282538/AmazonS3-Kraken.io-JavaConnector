@@ -2,7 +2,7 @@
 
 save your bandwidth,storage space and load time.</br>
 Automate your image optimization and compression process and get email notifications.
-<img src="http://zillion.io/img/github/process.png" class="img-responsive" alt="AmazonS3-Kraken.io-JavaConnector" width="650">
+<img src="https://image-store.slidesharecdn.com/9aaedafe-732f-4509-961f-b2753993f443-large.png" class="img-responsive" alt="AmazonS3-Kraken.io-JavaConnector" width="650">
 
 
 ## Developer Install (from git)
